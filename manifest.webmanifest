@@ -1,0 +1,10 @@
+{
+  "name": "SBD + HYROX Gym Logbook",
+  "short_name": "SBD + HYROX",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f8",
+  "theme_color": "#102b40",
+  "description": "Offline-first strength and HYROX workout tracker",
+  "icons": []
+}
