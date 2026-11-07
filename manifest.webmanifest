@@ -1,10 +1,17 @@
 {
-  "name": "SBD + HYROX Gym Logbook",
-  "short_name": "SBD + HYROX",
+"name": "TAGA Strength",
+  "short_name": "TAGA",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f3f6f8",
-  "theme_color": "#102b40",
-  "description": "Offline-first strength and HYROX workout tracker",
-  "icons": []
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "TAGA Strength workout tracker",
+  "icons": [
+    {
+      "src": "./App%20logo.PNG",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
