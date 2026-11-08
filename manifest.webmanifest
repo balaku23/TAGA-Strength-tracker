@@ -8,7 +8,7 @@
   "description": "TAGA Strength workout tracker",
   "icons": [
     {
-      "src": "./App%20logo.PNG",
+      "src": "./TAGA_app_icon.PNG",
       "sizes": "any",
       "type": "image/png",
       "purpose": "any"
