@@ -79,16 +79,65 @@ button {
 label, .muted, .sub {
   color: #b3b3b3;
 }
+/* TAGA STRENGTH HEADER */
+.taga-header {
+  text-align: center;
+  padding: 35px 18px 25px;
+}
+
+.taga-brand {
+  padding: 15px 0 25px;
+}
+
+.taga-logo {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.taga-name {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  color: #ffffff;
+}
+
+.taga-strength {
+  font-size: 13px;
+  letter-spacing: 6px;
+  color: #b3b3b3;
+  margin-top: 5px;
+}
+
+.taga-tagline {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #b3b3b3;
+  margin-top: 15px;
+}
+
+.taga-header .stats {
+  text-align: left;
+}
 </style>
 </head>
 <body>
-<header>
- <div class="topline"><span>Training logbook</span><span>EST. 2026</span></div>
- <h1>SBD + HYROX<br>GYM LOGBOOK</h1>
- <div class="sub">Strength • Conditioning • Consistency</div>
- <div class="stats">
-  <div class="stat"><b>405</b><span>SQUAT 1RM</span></div><div class="stat"><b>315</b><span>BENCH 1RM</span></div><div class="stat"><b>455</b><span>DEADLIFT 1RM</span></div><div class="stat"><b>1,175</b><span>TOTAL</span></div>
- </div>
+<header class="taga-header">
+  <div class="taga-brand">
+    <img src="./App%20logo.PNG" alt="TAGA Strength emblem" class="taga-logo">
+    <div class="taga-name">TAGA</div>
+    <div class="taga-strength">— STRENGTH —</div>
+    <div class="taga-tagline">CULTURE. DISCIPLINE. PURPOSE.</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>405</b><span>SQUAT 1RM</span></div>
+    <div class="stat"><b>315</b><span>BENCH 1RM</span></div>
+    <div class="stat"><b>455</b><span>DEADLIFT 1RM</span></div>
+    <div class="stat"><b>1,175</b><span>TOTAL</span></div>
+  </div>
 </header>
 <main>
  <section id="workoutView">
